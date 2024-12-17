@@ -4,6 +4,11 @@ import "./components/styles/Navbar.css";
 import ThreeBackground from "../src/components/ui/ThreeBackground";
 import Home from "../src/pages/Home"
 import { AppleCardsCarouselDemo } from "./pages/carousel";
+import DailyJournal from "./pages/DailyJournal";
+import InsightsPage from "./pages/insights";
+import AIAssistancePage from "./pages/AI-Assistance";
+import ProfilePage from "./pages/profile";
+import SettingsPage from "./pages/settings";
 
 function App() {
   return (
@@ -36,7 +41,11 @@ function App() {
           <ThreeBackground />
         </p>
         <Home/>
-  
+        <DailyJournal/>
+        <InsightsPage/>
+        <AIAssistancePage/>
+        <ProfilePage/>
+        <SettingsPage/>
       </main>
     </>
   );

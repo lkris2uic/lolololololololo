@@ -1,0 +1,102 @@
+/* General Container */
+.insights-container {
+    max-width: 1000px;
+    margin: 2rem auto;
+    padding: 1.5rem;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: "Arial", sans-serif;
+  }
+  
+  /* Header */
+  .insights-header {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .insights-header h1 {
+    font-size: 2.5rem;
+    color: #2d3748;
+  }
+  
+  .insights-header p {
+    font-size: 1.1rem;
+    color: #4a5568;
+  }
+  
+  /* Section Styling */
+  .insights-section {
+    margin-bottom: 2rem;
+  }
+  
+  .insights-section h2 {
+    font-size: 1.5rem;
+    color: #2d3748;
+    margin-bottom: 1rem;
+  }
+  
+  /* Chart Container */
+  .chart-container {
+    background-color: #f8fafc;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  
+  /* Recurring Topics */
+  .topics-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  
+  .topic-card {
+    background-color: #edf2f7;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #2d3748;
+    font-weight: 600;
+    text-transform: capitalize;
+  }
+  
+  /* AI Summary */
+  .ai-summary {
+    background-color: #f7fafc;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #4a5568;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  }
+  
+  /* Stats Section */
+  .stats-section {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  
+  .stats-card {
+    flex: 1;
+    background-color: #edf2f7;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .stats-card h3 {
+    font-size: 1.2rem;
+    color: #2d3748;
+    margin-bottom: 0.5rem;
+  }
+  
+  .stats-card p {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3182ce;
+  }
+  
