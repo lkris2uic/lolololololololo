@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import "./components/styles/Navbar.css";
 import ThreeBackground from "../src/components/ui/ThreeBackground";
 import Home from "../src/pages/Home"
-import { AppleCardsCarouselDemo } from "./pages/carousel";
+// import { AppleCardsCarouselDemo } from "./pages/carousel";
 import DailyJournal from "./pages/DailyJournal";
 import InsightsPage from "./pages/insights";
 import AIAssistancePage from "./pages/AI-Assistance";
