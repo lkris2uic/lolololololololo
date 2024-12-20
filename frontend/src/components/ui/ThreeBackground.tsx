@@ -65,9 +65,9 @@ const ThreeBackground = () => {
         ref={mountRef}
         className="absolute top-0 left-0 w-full h-full -z-10"
       ></div>
-
+  
       {/* Overlayed Title */}
-      <div className="absolute top-1/4 left-10 z-10 text-left">
+      <div className="absolute top-1/4 left-10 z-20 text-left">
         <h1 className="text-5xl font-bold text-white leading-snug">
           Welcome to Your AI Journal
         </h1>
@@ -76,7 +76,7 @@ const ThreeBackground = () => {
         </p>
       </div>
     </div>
-  );
+  );  
 };
 
 export default ThreeBackground;
